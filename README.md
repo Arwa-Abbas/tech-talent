@@ -40,24 +40,30 @@
 ### Prerequisites
 
 # 1. Clone the repository
+```bash
 git clone https://github.com/yourusername/pakistan-data-intelligence.git
 cd pakistan-data-intelligence
-
+```
 # 2. Create virtual environment
+```bash
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
-
+```
 # 3. Install dependencies
+```bash
 pip install -r requirements.txt
-
+```
 # 4. Run data collection
+```bash
 python src/data/data_collector.py
-
+```
 # 5. Generate business insights
+```bash
 python src/eda/insights_generator.py
-
+```
 # 6. Launch dashboard
 streamlit run src/dashboard/app.py
 ```bash
 Python 3.8+
 pip (package installer)
+```
